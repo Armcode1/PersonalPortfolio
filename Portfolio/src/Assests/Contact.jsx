@@ -2,6 +2,7 @@ import React from 'react';
 // import { faInstagram, } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram, faFacebook, faWhatsapp, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Form from './Form';
 
 function Contact() {
     return (
@@ -41,40 +42,9 @@ function Contact() {
                         </div>
                     </div>
 
+                    <Form/>
 
-                    <div class="w-full lg:max-w-[45%]">
-                        <form action="#">
-                            <input
-                                type="text"
-                                placeholder="Enter Your Name"
-                                class="w-full py-4 px-4 mb-4 rounded-lg bg-[#112233] text-white text-lg border-none"
-                                required
-                            />
-                            <input
-                                type="email"
-                                placeholder="Enter Your Email"
-                                class="w-full py-4 px-4 mb-4 rounded-lg bg-[#112233] text-white text-lg border-none"
-                                required
-                            />
-                            <input
-                                type="text"
-                                placeholder="Enter Your Subject"
-                                class="w-full py-4 px-4 mb-4 rounded-lg bg-[#112233] text-white text-lg border-none"
-                                required
-                            />
-                            <textarea
-                                placeholder="Enter Your Message"
-                                class="w-full py-4 px-4 mb-4 rounded-lg bg-[#112233] text-white text-lg border-none resize-none h-40"
-                                required
-                            ></textarea>
-                            <button
-                                type="submit"
-                                class="w-full py-4 bg-[#00f0ff] text-white rounded-lg text-lg font-semibold cursor-pointer hover:bg-[#00cce7] transition-colors duration-300"
-                            >
-                                Submit
-                            </button>
-                        </form>
-                    </div>
+
                 </div>
             </section>
 

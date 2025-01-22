@@ -4,7 +4,7 @@ function Services() {
   return (
     <div>
         
-    <section className='py-24 px-5 bg-[#0c1a25] text-center'>
+    <section id='Services' className='py-24 px-5 bg-[#0c1a25] text-center'>
         <h2 className='text-4xl md:text-5xl text-white mb-12'>My <span className='text-[#00f0ff]'>Services</span></h2>
         <div className='flex flex-wrap justify-around gap-8'>
             <div className='bg-[#112233] p-8 rounded-lg shadow-lg shadow-cyan-300/10 w-[300px] transition-transform duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#4EEC88]'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-
+import { Link } from 'react-scroll';
 
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
       
   return (
     <div>
-         <nav className="flex flex-wrap items-center justify-between  md:px-20 px-3 py-4 bg-[#1d3b1d] ">
+         <nav className="flex flex-wrap items-center justify-between  md:px-20 px-3 py-4 bg-[#112331] ">
       {/* Logo */}
       <div className="text-white font-bold text-2xl">
         <a href="#">Arman Ali</a>
@@ -43,35 +43,65 @@ function Navbar() {
         } flex-col md:flex md:flex-row md:items-center md:space-x-6 w-full md:w-auto`}
       >
         <li className="mx-2 my-2 md:my-0">
-          <a href="#" className="text-white no-underline hover:text-cyan">
-            Home
-          </a>
-        </li>
-        <li className="mx-2 my-2 md:my-0">
-          <a href="#" className="text-white no-underline hover:text-cyan">
-            About
-          </a>
-        </li>
-        <li className="mx-2 my-2 md:my-0">
-          <a href="#" className="text-white no-underline hover:text-cyan">
-            Services
-          </a>
-        </li>
-        <li className="mx-2 my-2 md:my-0">
-          <a href="#" className="text-white no-underline hover:text-cyan">
-            Skills
-          </a>
-        </li>
-        <li className="mx-2 my-2 md:my-0">
-          <a href="#" className="text-white no-underline hover:text-cyan">
-            Projects
-          </a>
-        </li>
-        <li className="mx-2 my-2 md:my-0">
-          <a href="#" className="text-white no-underline hover:text-cyan">
-            Contact
-          </a>
-        </li>
+            <Link
+              to="Home"
+              smooth={true}
+              duration={700}
+              className="text-white no-underline hover:text-teal-400 cursor-pointer"
+            >
+              Home
+            </Link>
+          </li>
+          <li className="mx-2 my-2 md:my-0">
+            <Link
+              to="about"
+              smooth={true}
+              duration={700}
+              className="text-white no-underline hover:text-teal-400 cursor-pointer"
+            >
+              About
+            </Link>
+          </li>
+          <li className="mx-2 my-2 md:my-0">
+            <Link
+              to="Services"
+              smooth={true}
+              duration={700}
+              className="text-white no-underline hover:text-teal-400 cursor-pointer"
+            >
+              Services
+            </Link>
+          </li>
+          <li className="mx-2 my-2 md:my-0">
+            <Link
+              to="Skills"
+              smooth={true}
+              duration={700}
+              className="text-white no-underline hover:text-teal-400 cursor-pointer"
+            >
+              Skills
+            </Link>
+          </li>
+          <li className="mx-2 my-2 md:my-0">
+            <Link
+              to="Projects"
+              smooth={true}
+              duration={700}
+              className="text-white no-underline hover:text-teal-400 cursor-pointer"
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="mx-2 my-2 md:my-0">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={700}
+              className="text-white no-underline hover:text-teal-400 cursor-pointer"
+            >
+              Contact
+            </Link>
+          </li>
       </ul>
     </nav>
 

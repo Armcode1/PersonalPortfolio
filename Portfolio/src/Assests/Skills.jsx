@@ -57,7 +57,7 @@ function Skills() {
     }, []);
 
     return (
-        <section className="bg-[#0c1a25] py-10 px-5 text-center">
+        <section id='Skills' className="bg-[#0c1a25] shadow-cyan-300 py-10 px-5 text-center">
             <h2 className="text-4xl text-white font-bold mb-6 relative inline-block">
                 Skills
                 <span className="absolute w-20 h-1 bg-[#6f42c1] rounded bottom-[-10px] left-1/2 transform -translate-x-1/2"></span>

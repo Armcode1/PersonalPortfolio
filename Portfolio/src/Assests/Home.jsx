@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { faInstagram, faFacebook, faWhatsapp, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ResumeButton from './ResumeButton';
 
 
 const Home = () => {
@@ -60,7 +61,7 @@ const Home = () => {
     }, []);
 
     return (
-        <section className='flex flex-col-reverse md:flex-row justify-between items-center md:py-24 px-10 md:px-20 bg-[#0c1a25]'>
+        <section id='Home' className='flex flex-col-reverse md:flex-row justify-between items-center md:py-24 px-10 md:px-20 bg-[#0c1a25]'>
             <div className=" max-w-lg ">
                 <h1 className='text-4xl font-bold leading-tight text-white'>
                     Hello, It's Me<br />
@@ -80,7 +81,9 @@ const Home = () => {
 
 
                 </div>
-                <a href="#" className="btn inline-block mt-5 mb-5 px-5 py-2 bg-[#00f0ff] text-[#09131c] font-bold rounded transition duration-300 hover:bg-[#00c4ff]">More About Me</a>
+                <ResumeButton/>
+                
+
             </div>
             <div className=" flex items-center justify-center bg-gradient-to-r from-[#7600ff] to-[#00f0ff] rounded-full p-4 shadow-2xl shadow-cyan-300/40 mb-8 mt-5">
                 <img src="public/my.jpg" alt="img" className='w-96 h-auto rounded-full shadow-2xl border-[10px] border-[#0c1a25] bg-gradient-to-r from-[#00f0ff] to-[#7600ff] p-1' />
