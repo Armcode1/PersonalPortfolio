@@ -9,10 +9,10 @@ function About() {
         <div className=" items-center justify-center pb-9 ">
           <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b761158ubchlgzph0exatwjnz3syx45wbowc9yw2aj2dh&ep=v1_gifs_search&rid=giphy.gif&ct=g"
             alt="Coding Animation"
-            className=' w-96 h-auto p-1' />
+            className='  h-auto p-1' />
         </div>
         
-        <div className="about-text max-w-lg">
+        <div className="about-text md:w-1/2">
           <h2 className='text-4xl font-bold leading-tight text-white'>About <span className='text-[#00f0ff]'>Me</span></h2>
           <h3 className='text-2xl mt-2 text-white'>Full Stack Developer!</h3>
           <p className='my-5 text-lg leading-relaxed text-gray-400'>
