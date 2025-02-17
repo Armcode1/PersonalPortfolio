@@ -21,6 +21,12 @@ const webDevelopmentProjects = [
     link: "https://armcode1.github.io/English_Academy/"
 },
 {
+  title: "AI Trip Planner",
+  description: "Designed and developed an AI-driven travel itinerary generator using React.js, Node.js, MongoDB, OpenAI API, and Google Maps API.",
+  tech: ["React", "Tailwind", "Node.js","Express","MongoDB","APIs"],
+  link: "https://github.com/Armcode1/Codsoft/tree/main/CodSoft/1_Landing%20page"  
+},
+{
   title: "Tourism Landing Page",
   description: "A visually appealing landing page for a tourism business, showcasing travel destinations, tour packages, customer testimonials, and a booking inquiry form.",
   tech: ["HTML", "CSS", "JavaScript"],

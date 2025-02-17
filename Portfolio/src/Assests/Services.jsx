@@ -15,7 +15,7 @@ function Services() {
             Designing intuitive and user-friendly interfaces that enhance user experience and engagement.
             </p>
             <a
-              href="/contact?subject=UI/UX%20Design"
+              href=""
               className="inline-block px-6 py-3 text-white bg-[#00f0ff] rounded-full transition duration-300 hover:bg-[#00cce7]"
             >
               Contact Us
@@ -28,7 +28,7 @@ function Services() {
             Creating responsive and dynamic websites, web applications, and custom solutions tailored to business needs.
             </p>
             <a
-              href="/contact?subject=Web%20Design"
+              href='https://wa.me/+916201047778'
               className="inline-block px-6 py-3 text-white bg-[#00f0ff] rounded-full transition duration-300 hover:bg-[#00cce7]"
             >
               Contact Us
@@ -41,7 +41,7 @@ function Services() {
             Developing scalable and efficient software solutions to streamline business operations and improve productivity.
             </p>
             <a
-              href="/contact?subject=Software%20Development"
+              href='https://wa.me/+916201047778'
               className="inline-block px-6 py-3 text-white bg-[#00f0ff] rounded-full transition duration-300 hover:bg-[#00cce7]"
             >
               Contact Us
@@ -55,7 +55,7 @@ function Services() {
             Providing data-driven solutions, including data visualization, reporting, and business insights to help optimize decision-making.
             </p>
             <a
-              href="/contact?subject=Software%20Development"
+              href='https://wa.me/+916201047778'
               className="inline-block px-6 py-3 text-white bg-[#00f0ff] rounded-full transition duration-300 hover:bg-[#00cce7]"
             >
               Contact Us
