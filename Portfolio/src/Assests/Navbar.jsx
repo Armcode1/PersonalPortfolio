@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="flex flex-wrap items-center justify-between w-full fixed top-0 z-50 md:px-20 px-3 py-4 mb-4">
+      <nav className="flex flex-wrap items-center justify-between w-full fixed top-0 z-50 md:px-20 px-3 py-4 ">
         {/* Logo */}
         <div className="text-white font-bold text-2xl">
           <Link
@@ -89,7 +89,7 @@ function Navbar() {
             <Link
               to="Skills"
               smooth={true}
-              duration={700}
+              duration={500}
               activeClass="text-teal-400 font-bold"
               onClick={() => setIsOpen(false)}
               className="text-white no-underline hover:text-teal-400 cursor-pointer"
@@ -101,7 +101,7 @@ function Navbar() {
             <Link
               to="Projects"
               smooth={true}
-              duration={700}
+              duration={500}
               activeClass="text-teal-400 font-bold"
               onClick={() => setIsOpen(false)}
               className="text-white no-underline hover:text-teal-400 cursor-pointer"
@@ -113,7 +113,7 @@ function Navbar() {
             <Link
               to="contact"
               smooth={true}
-              duration={700}
+              duration={500}
               activeClass="text-teal-400 font-bold"
               onClick={() => setIsOpen(false)}
               className="text-white no-underline hover:text-teal-400 cursor-pointer"

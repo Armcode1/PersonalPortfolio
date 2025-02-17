@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faJs,faReact,faHtml5,faCss3Alt,faFigma,faJava,faGitAlt,faGithub,faBootstrap,faNode} from '@fortawesome/free-brands-svg-icons';
+import { faJs,faReact,faHtml5,faCss3Alt,faFigma,faJava,faGitAlt,faGithub,faBootstrap,faNode,faPython} from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -103,11 +103,12 @@ function Skills() {
 
                     <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex text-2xl flex-col items-center justify-center">
                         <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex flex-col items-center justify-center">
-                           <FontAwesomeIcon icon={faJava} size='2xl' bounce style={{color: "#74c0fc",}} / >
-                           <span className="text-white text-sm">Java</span>
+                           <FontAwesomeIcon icon={faPython} size='2xl'  style={{color: "042b48",}} / >
+                           <span className="text-white text-sm">Python</span>
                         </div>
                         
                     </div>
+
 
                     <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex text-2xl flex-col items-center justify-center">
                         <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex flex-col items-center justify-center">
@@ -158,6 +159,14 @@ function Skills() {
                         <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex flex-col items-center justify-center">
                         <img src="public/Tailwind CSS.svg" className='h-12 w-12' alt="mongodb" />
                            <span className="text-white text-sm">Tailwind</span>
+                        </div>
+                        
+                    </div>
+
+                    <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex text-2xl flex-col items-center justify-center">
+                        <div className="min-w-[150px] h-[150px] bg-[#112233] rounded-lg flex flex-col items-center justify-center">
+                        <img src="public/power-bi-icon.svg" className='h-12 w-12' alt="mongodb" />
+                           <span className="text-white text-sm">PowerBI</span>
                         </div>
                         
                     </div>

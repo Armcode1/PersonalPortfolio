@@ -16,17 +16,15 @@ function About() {
           <h2 className='text-4xl font-bold leading-tight text-white'>About <span className='text-[#00f0ff]'>Me</span></h2>
           <h3 className='text-2xl mt-2 text-white'>Full Stack Developer!</h3>
           <p className='my-5 text-lg leading-relaxed text-gray-400'>
-            Hi, I’m Arman Ali, a passionate Full-Stack Developer and tech enthusiast with a strong foundation in Computer Science Engineering. I hold a Bachelor of Technology (B.Tech) degree from Dr. APJ Abdul Kalam Technical University.
+          <p>Hi, I’m Arman Ali!</p>
+<p>I’m a passionate Full-Stack Developer and Data Analyst with a strong foundation in Computer Science Engineering. I hold a B.Tech degree from Dr. APJ Abdul Kalam Technical University and specialize in both web development and data analysis, enabling me to build powerful applications and extract meaningful insights from data.</p>
 
-            I specialize in building end-to-end web applications, combining intuitive frontend design with efficient backend functionality. My expertise includes technologies like React, Node.js, Express, MongoDB, and JavaScript, enabling me to create scalable and user-friendly solutions.
+🔹 Web Development (MERN Stack)
+I specialize in building scalable and user-friendly web applications using React, Node.js, Express, and MongoDB. From frontend design to backend functionality, I create end-to-end solutions that enhance user experience and performance.
 
-            Driven by a desire for continuous learning, I’m constantly exploring new tools and techniques to enhance my skills. I also have a keen interest in Data Structures and Algorithms (DSA) and enjoy solving complex problems to improve my coding proficiency.
-
-            🚀 My goal is to contribute to impactful projects that make a difference and push the boundaries of technology.
-
-            When I’m not coding, you’ll find me mentoring others in their tech journey or exploring the latest trends in web development.
-
-
+<p>🔹 Data Analysis & Insights
+With expertise in SQL, Excel, and Python, I analyze data to uncover trends, create visual dashboards, and provide data-driven insights to optimize decision-making. My goal is to turn raw data into actionable intelligence.
+</p>
           </p>
           <ResumeButton/>
         </div>
