@@ -104,7 +104,7 @@ const Home = () => {
             {/* Profile Image */}
             <div className="relative z-10 flex items-center justify-center bg-gradient-to-r from-[#7600ff] to-[#00f0ff] rounded-full p-4 shadow-2xl shadow-cyan-300/40 mb-8 mt-20">
                 <img
-                    src="public/my.jpg"
+                    src="/my.jpg"
                     alt="img"
                     className="w-96 h-auto rounded-full shadow-2xl border-[10px] border-[#0c1a25] bg-gradient-to-r from-[#00f0ff] to-[#7600ff] p-1"
                 />
